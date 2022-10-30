@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a{ 
+   
+    text-decoration: none;
+    color: #B39C7D;
+}
+.site-logo{   
+    width: 180px;
+    height: 100px;
+    display: inline-block;
+}
+.site-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #ffffff;
+    display: inline-block;
+    z-index: 9999;
+}
+
+
+
+h1 {
+    text-transform: lowercase;
+    display: block;
+}
+h3{
+    color:#B39C7D;
+    margin-top:120px;
+    justify-content: center;   
+    display: block; 
+}
+p {
+    color:#B39C7D;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    line-height: 1.5;
+    text-decoration: none;
+    margin:0;
+    }
+    
+.site-nav ul {
+        padding-left: 20px;
+        padding-right: 20px;
+        list-style: none;
+    }
+.site-nav-menu {
+        margin-bottom: 0;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+         padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-evenly;
+        text-decoration: none;
+    }
+
+li{
+        padding: 20px;
+        color: #B39C7D;
+        text-decoration: none;
+    }
+
+footer{
+        display: block;
+        background-color:  #B39C7D; 
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height:fit-content;
+    }
+    
+.site-footer-pc-primario-cont{
+        
+        line-height: 0;
+        padding-top: 1em;
+        padding-bottom: 0;
+        background-color:  #B39C7D;
+        margin:0;
+    }
+.site-footer-pc-primario {
+        width: 100%;
+        background-color:  #B39C7D; 
+        
+    }
+
+.rrss {
+        padding: 0;
+        list-style: none;
+        display: block;
+        text-align: right;
+        font-size: 1rem;
+        margin:0;
+        color:#ffffff;
+    }
+    
+.site-footer-nav ul {
+        padding-left: 20px;
+        padding-right: 20px;
+        list-style: none;
+        display: inline-block; 
+        line-height: 0.1%;
+        text-align: left; 
+        font-size: 15px;
+        margin:0;
+        text-decoration: none;
+        color:#ffffff
+    }
+.site-footer-nav-menu {
+        margin: 0;
+        
+    }
+.site-footer-nav li {
+        padding:7px;
+        color:#ffffff;
+        text-decoration: none;
+    
+    }
+
+.site-footer-nav a {
+        color:#ffffff;
+        text-decoration: none;
+    
+    }
+
+
+.texto-cabeza{
+    color: #ffffff;
+    font-family: 'Parisienne', cursive;
+    text-transform: lowercase;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.site-content{
+    background-color:  #ffffff;
+    margin-top: 120px;
+}
+
+.cabeza-contenido{
+    position: relative;
+    color: white;
+    margin-top: 120px;
+    width: auto;
+    padding: 0;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+}
+.imagen1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .contenido-texto{
+    width: 100%;  
+    clear:both;
+    position:relative;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .contacto {
+    margin-top:200px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+  
+    width: 180px;
+  }
+  
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
